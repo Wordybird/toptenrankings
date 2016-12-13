@@ -1,0 +1,31 @@
+Your task is to revise what we've done today by creating Java classes and testing them in Android Studio. What we'd like you to do is, using TDD, implement a couple of classes to maintain a list of the top 10 dart players in the world. You will need to create two classes (and tests), one for a player, the other for maintaining the rankings.
+
+A player will have the following attributes:
+
+* Name
+* Nickname
+* Current Ranking
+
+You should be able to perform the following methods on a player:
+
+* Get/Set Name
+* Get/Set Nickname
+* Get/Set Ranking
+* Override the default toString() method so that it returns a string containing the player's details e.g. "Name: Phil Taylor, Nickname: 'The Power', Ranking: 1"
+
+The rankings will contain an array of Player objects. Each player's position in the array will correspond to their current ranking e.g. the player with ranking 2 will be at index 1 in the array
+
+You should be able to perform the following methods on the rankings list:
+
+* Get the player with a specified ranking
+* Replace the player at the end of the list with a new one
+
+REMEMBER - to write tests
+
+##Extensions
+
+If you want to, and have time, you can implement the following methods:
+
+* Find a specific player in the list by their name
+* Move a player up/down one place in the rankings
+ * NOTE - doing this will also need to update the player's ranking
